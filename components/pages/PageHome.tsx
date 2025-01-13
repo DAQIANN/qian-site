@@ -3,7 +3,6 @@ import React from 'react';
 import './Home.css';
 
 import { IconTray } from '../shared/IconTray';
-import { IconTrayTwo } from '../shared/IconTray2';
 
 export default function PageHome(): React.ReactElement {
   return (

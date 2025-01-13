@@ -5,11 +5,7 @@ import '../styles/App.module.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import {
-  faEnvelope,
-  faFileAlt,
-  faHome,
-} from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFileAlt, faHome } from '@fortawesome/free-solid-svg-icons';
 
 import About from "../components/pages/about";
 import Navbar from "../components/shared/Navbar";
