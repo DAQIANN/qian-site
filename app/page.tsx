@@ -14,8 +14,6 @@ import {
 import About from "../components/pages/about";
 import Navbar from "../components/shared/Navbar";
 import PageHome from "../components/pages/PageHome";
-import { IconTray } from "../components/shared/IconTray";
-import { IconTrayTwo } from "../components/shared/IconTray2";
 
 library.add(fab, faEnvelope, faFileAlt, faHome);
 
@@ -29,11 +27,6 @@ export default function Home() {
       <div id="about">
         <About />
       </div>
-      {/* Uncomment when you add the 'more' section */}
-      {/* <div id="more">
-        <More />
-      </div>
-      <Footer /> */}
     </div>
   );
 }
